@@ -9,10 +9,15 @@ You can see Background Photo by Peter Olexa [here](https://unsplash.com/photos/m
 
 ### Who's idea is?
 It is designed by [Udacity](https://www.udacity.com/), coded by me !!
-### What is this game?
-It is a memory card game of matching two equal cards, until all 8 pairs(16 cards) are shown.
 
-### Score
+### How to play?
+
+### How to win?
+ - You must pair 2 cards, until all 8 pairs(16 cards), are matched
+ - You must end with 1 or more stars
+---
+### Score Panel
+### Stars
 Every 8 moves(2 cards clicked = 1 move), you lose 1 star. More stars = Better score. 
 
 When you reach 0 stars, you lose :pensive:
