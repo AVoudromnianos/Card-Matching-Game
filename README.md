@@ -13,16 +13,30 @@ It is designed by [Udacity](https://www.udacity.com/), coded by me !!
 ---
 
 ### How to play?
-
-### How to win?
+ 1. Download all files
+ 2. Open index.html
+ 3. Cards shows up for 3 seconds
+ 4. Pair cards (16 cards = 8 pairs)
+ 5. When all cards are paired, win screen shows up
+ 6. Press Play Again, to play new round
+ 
+ Every time you click restart or Play Again buttons:
+ 1. Stars become 3
+ 2. Timer goes 00:00:00
+ 3. Cards changing place
+ 
+ How to win?
  - You must pair 2 cards, until all 8 pairs(16 cards), are matched
  - You must end with 1 or more stars
+ 
+ More informations about score panel and buttons, bellow.
+ 
 ---
 
 ### Score Panel
 ### Stars
 2 cards clicked = 1 move.\
-Every 8 moves , you lose 1 star .More stars = Better score. 
+Every 8 moves , you lose 1 star . More stars = Better score. 
 
 When you reach 0 stars, you lose :pensive:
 
@@ -50,7 +64,8 @@ Here, Timer stops and it shows up the Grading system
  3. Cards changing place.
  
  New round is loading and cards shows up for 3 seconds.
-
+ 
+---
 ### Win
 If you win, it shows you a win-screen.
  
@@ -60,7 +75,7 @@ If you win, it shows you a win-screen.
   - With how many stars you won
   - Time elapsed
   - A play again button
----
+
 ### Things TODO:
   - [x] Better designed win screen and game's interface
   - [ ] Better Responsiveness
