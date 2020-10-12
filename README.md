@@ -1,9 +1,8 @@
-@ -1,53 +1 @@
 # Card Matching Game
 
 ## Game's Interface.  
 
-![Game's Interface](https://github.com/AVoudromnianos/Memory-Card-Game/blob/master/Card%20Matching%20Game.png)
+![Game's Interface](background-photo.png)
 
 ### Background Photo
 You can see Background Photo [here](https://unsplash.com/photos/mxIGWk111u0)
