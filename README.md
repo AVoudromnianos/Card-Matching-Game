@@ -2,7 +2,7 @@
 
 ## Game's Interface.  
 
-![Game's Interface](background-photo.png)
+![Game's Interface](CSS/background-photo.png)
 
 ### Background Photo
 You can see Background Photo [here](https://unsplash.com/photos/mxIGWk111u0)
