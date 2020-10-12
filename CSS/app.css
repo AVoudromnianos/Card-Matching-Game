@@ -1,0 +1,334 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+html,
+body {
+    width: 100%;
+    height: 90%;
+    margin: 0;
+    padding: 0;
+	
+}
+
+body {
+    font-family: 'Coda', cursive;
+    background-image: url("background-photo.jpg");
+    background-color: white;
+    background-size: 100%;
+    background-position: 50%;
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 30px;
+    margin-bottom: 20px;
+	color: white;
+	cursor: default;
+
+}
+
+/*
+ * Styles for the deck of cards
+ */
+
+
+.deck {
+    width: 640px;
+    min-height: 650px;
+    background: linear-gradient(160deg, #616aed 20%, #d271d6 100%);
+    padding: 32px;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 0 3em;
+    z-index: 2;
+    pointer-events: none;
+    opacity: 90%;
+}
+
+.deck .card {
+    height: 125px;
+    width: 125px;
+    background: #2e3d49;
+    font-size: 0;
+    color: #ffffff;
+    border-radius: 8px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 2px 20px 0 rgba(46, 61, 73, 0.65);
+    pointer-events: auto;
+}
+
+.deck .card.open {
+    transform: rotateY(180deg);
+    transition: 0.3s;
+    background: #2f91f9;
+    cursor: default;
+    pointer-events: none;
+}
+
+.deck .card.close {
+	transform: rotateY(360deg);
+	transition: 0.2s;
+	transform-style: preserve-3d;
+	background: ;
+}
+
+.deck .card.show {
+    font-size: 33px;
+}
+
+.deck .card.match {
+    cursor: default;
+    background: #1bc45f;
+    font-size: 33px;
+}
+
+.deck .card:hover {
+	background-color: #394c5c;
+
+}
+
+/*
+ * Styles for the Score Panel
+ */
+
+.score-panel {
+   /* text-align: left;*/
+    width: 500px;
+    margin-bottom: 10px;
+    background-color: #4286f4;
+    border-radius: 10px;
+ 	opacity: 90%;
+ 	padding: 10px;
+}
+
+.score-panel .stars {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    margin: 0 5px 0 0;
+	background-color: #4286f4;
+	color: white;
+	border-radius: 5px;
+}
+
+.score-panel .stars li {
+    list-style: none;
+    display: inline-block;
+    color: white;
+}
+
+.score-panel .moves {
+	color: white;
+	display: inline-block;
+	margin: 0 5px 0 0;
+	cursor: default;
+}
+
+.score-panel .counter{
+	cursor: default;
+	display: inline-block;
+	color:white;
+	margin: 0 5px 0 0;
+}
+
+.score-panel .info{
+	cursor: pointer;
+	display: inline-block;
+	color:white;
+	margin: 0 5px 0 0;
+}
+
+.score-panel #timer {
+	display: inline-block;
+	color: white;
+	width: 80px;
+	height: 27px;
+}
+
+.score-panel .restart {
+	cursor: pointer;
+    float: right;
+    	margin: 0 5px 0 0;
+}
+
+.restart button {
+	border-radius: 5px;
+	cursor: pointer;
+	background-color: #4286f4;
+	color: white;
+	width: 95px;
+	height: 27px;
+}
+
+
+footer {
+    text-align: center;
+    margin-top: 2%
+    color: white;
+}
+
+.footer p{
+	color:white;
+}
+
+hr {
+	height:2px;
+	width: 50%;
+	margin-top: 20px;
+	color:gray;
+	background-color:gray;
+}
+
+.winPage {
+  z-index: 1000;
+  border: 2px solid;
+  border-radius: 10px;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0,0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 70%;
+  width: 100%;
+  transition: 1s;
+  animation-name: animatetop;
+  animation-duration: 0.25s;
+  animation-timing-function: linear;
+  position:absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.winPage.closed {
+	display: none;
+	z-index: 1;
+}
+
+.winPage .playAgain{
+	cursor: pointer;
+	color: white;
+}
+
+.winPage .message{
+	color: white;
+	font-size: 20px;
+	text-align: center;
+}
+
+
+@keyframes animatetop {
+    from {top: -300px; opacity: 0}
+    to {top: 0; opacity: 1}
+}
+
+/* Medium Screens */
+
+@media screen and (max-width: 680px) {
+	html
+	body{
+			width:100%;
+			height: 100%;
+	}
+	.deck{
+		width: 60%
+		height: 60%;
+		
+	}
+	.container{
+		width:80%;
+		height: 80%;
+		 align-items: center;
+	}
+	
+	h1{
+		width: 50%;
+		height: 50%;
+	}
+	
+	.winPage {
+		width: 400px;
+		margin-left: -200px;
+		font-size: 2em;
+		line-height: 1.3em;
+		margin-bottom: 20px;
+	}
+
+
+}
+
+/* Large Screens */
+
+@media screen and (max-width: 700px) {
+	html
+	body{
+			width:100%;
+			height: 100%;
+	}
+	.container{
+		width: 80%;
+		height: 80%;
+	}
+
+	.winPage{
+		width: 500px;
+		margin-left: -250px;
+		font-size: 2.5em;
+		line-height: 1.3em;
+		margin-bottom: 30px;
+	}
+	
+
+}
+
+@media screen and (max-width: 1920px) {
+	html
+	body{
+			width:100%;
+			height: 100%;
+			padding-bottom: 40px;
+			padding-top: 30px;
+	}
+
+	.deck{
+		width: 50%
+		height: 50%;
+		
+	}
+
+	.container{
+		width: 100%;
+		height: 100%;
+	}
+
+	.winPage{
+		width: 500px;
+		font-size: 2.5em;
+		line-height: 1.3em;
+		margin-bottom: 10px;
+		float: center;
+	}
+
+}
