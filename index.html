@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title> ApostolosV Card Matching Game</title>
+    <meta name="description" content="">
+    <link rel="stylesheet prefetch" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+    <link rel="stylesheet prefetch" href="https://fonts.googleapis.com/css?family=Coda">
+    <link rel="stylesheet" href="CSS/app.css">
+</head>
+<body>
+
+    <div class="container">
+        
+        <header>
+            <h1>Card Matching Game</h1>
+        </header>
+
+        <section class="score-panel">
+        	<ul class="stars">
+        		<li><i class="fa fa-star"></i></li>
+        		<li><i class="fa fa-star"></i></li>
+        		<li><i class="fa fa-star"></i></li>
+        	</ul>
+
+        	 <span class="moves">0</span>
+             <p class="moves">Moves</p>
+             
+
+            <div class ="counter">
+             <span> Time 
+                <i class="fa fa-clock-o"></i> :
+             </span> <div id="timer">00:00:00</div>
+            </div>
+
+             <div class="info"> 
+                <i class="fa fa-info" aria-hidden= "true"> Info </i>
+             </div>
+                    
+
+             <div class="restart">
+              <button type="button" class="btn">
+        		<i class="fa fa-repeat"> RESTART</i>
+              </button>
+        	 </div>
+
+        </section>
+    
+
+        <ul class="deck">
+            <li class="card">
+                <i class="fa fa-diamond"></i>
+            </li>
+            <li class="card">
+                <i class="fa fa-paper-plane-o"></i>
+            </li>
+            <li class="card">
+                <i class="fa fa-anchor"></i>
+            </li>
+            <li class="card">
+                <i class="fa fa-bolt"></i>
+            </li>
+            <li class="card">
+                <i class="fa fa-cube"></i>
+            </li>
+            <li class="card">
+                <i class="fa fa-anchor"></i>
+            </li>
+            <li class="card">
+                <i class="fa fa-leaf"></i>
+            </li>
+            <li class="card">
+                <i class="fa fa-bicycle"></i>
+            </li>
+            <li class="card">
+                <i class="fa fa-diamond"></i>
+            </li>
+            <li class="card">
+                <i class="fa fa-bomb"></i>
+            </li>
+            <li class="card">
+                <i class="fa fa-leaf"></i>
+            </li>
+            <li class="card">
+                <i class="fa fa-bomb"></i>
+            </li>
+            <li class="card">
+                <i class="fa fa-bolt"></i>
+            </li>
+            <li class="card">
+                <i class="fa fa-bicycle"></i>
+            </li>
+            <li class="card">
+                <i class="fa fa-paper-plane-o"></i>
+            </li>
+            <li class="card">
+                <i class="fa fa-cube"></i>
+            </li>
+        </ul>
+    </div>
+
+     <div class="winPage closed">
+        <h1> Congratulations You Won! </h1>
+        <div class="message">
+           <h2> You finished with </h2>
+           <p><span class="movesCount"></span> Moves</p>
+           <p><span class="starsCount"></span> Stars</p>
+           <p>And <span class="finalTime"></span> Time </p>
+       </div>
+        <h3 class="playAgain">Play Again!</h3>
+  </div>
+
+  <hr>
+  <footer class="footer">
+        <p> Designed By: Udacity - Coded by: ApostolosV </p>
+        <p class="copyright">ApostolosV 2018. <i class="fa fa-copyright"></i> All Rights Reserved</p>
+    </footer>
+
+    <script src="JavaScript/app.js"></script>
+</body>
+</html>
