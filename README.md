@@ -5,8 +5,8 @@
  ![Game's Interface](https://github.com/AVoudromnianos/Card-Matching-Game/blob/main/Card%20Matching%20Game.png)
 
 ### Background Photo
-You can see Background Photo [here](https://unsplash.com/photos/mxIGWk111u0)
-Peter Olexa
+You can see Background Photo by Peter Olexa [here](https://unsplash.com/photos/mxIGWk111u0)
+
 ### Who's idea is?
 It is designed by [Udacity](https://www.udacity.com/), coded by me !!
 ### What is this game?
