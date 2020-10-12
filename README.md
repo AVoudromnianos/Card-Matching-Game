@@ -21,8 +21,8 @@ It is designed by [Udacity](https://www.udacity.com/), coded by me !!
 
 ### Score Panel
 ### Stars
-2 cards clicked = 1 move
-Every 8 moves, you lose 1 star .More stars = Better score. 
+2 cards clicked = 1 move.\
+Every 8 moves , you lose 1 star .More stars = Better score. 
 
 When you reach 0 stars, you lose :pensive:
 
@@ -45,9 +45,9 @@ Here, Timer stops and it shows up the Grading system
 
 ### Restart
  When you press it: 
- 1. stars become 3
- 2. timer goes 00:00:00
- 3. cards changing place.
+ 1. Stars become 3
+ 2. Timer goes 00:00:00
+ 3. Cards changing place.
  
  New round is loading and cards shows up for 3 seconds.
 
