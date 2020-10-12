@@ -2,7 +2,7 @@
 
 ## Game's Interface.  
 
-![Game's Interface](Card Matching Game.png)
+![Game's Interface](https://github.com/AVoudromnianos/Card-Matching-Game/blob/main/Card%20Matching%20Game.png)
 
 ### Background Photo
 You can see Background Photo [here](https://unsplash.com/photos/mxIGWk111u0)
