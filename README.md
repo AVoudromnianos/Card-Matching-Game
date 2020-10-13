@@ -79,5 +79,5 @@ If you win, it shows you a win-screen.
 ### Things TODO:
   - [x] Better designed win screen and game's interface
   - [ ] Better Responsiveness
-  - [ ] Better Info's screen
+  - [ ] Better Info screen
   - [ ] Add lose case and screen
