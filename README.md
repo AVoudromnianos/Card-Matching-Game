@@ -75,9 +75,3 @@ If you win, it shows you a win-screen.
   - With how many stars you won
   - Time elapsed
   - A play again button
-
-### Things TODO:
-  - [x] Better designed win screen and game's interface
-  - [ ] Better Responsiveness
-  - [ ] Better Info screen
-  - [ ] Add lose case and screen
